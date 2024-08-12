@@ -19,4 +19,4 @@ Object.entries(data.chain_to_assets_map).forEach(([key, value]) => {
   };
 });
 
-fs.writeFileSync("public/assets.json", JSON.stringify(newData));
+fs.writeFileSync("../public/assets.json", JSON.stringify(newData));
